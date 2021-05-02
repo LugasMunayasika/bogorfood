@@ -180,11 +180,11 @@ button:focus{
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #d0a772;
+	background: #189034;
 	color: #ffffff;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #d0a772;
+	background: #189034;
 	color: #ffffff;
 	border-radius: 4px;
 }
@@ -195,7 +195,7 @@ button:focus{
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #d0a772;
+	background: #1FAE41;
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
@@ -210,7 +210,7 @@ button:focus{
 	height: 100vh;
 }
 .slides-navigation a {
-	background: #cfa671;
+	background: #189034;
     position: absolute;
     height: 70px;
     width: 70px;
