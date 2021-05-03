@@ -85,7 +85,7 @@
 				<div class="col-lg-12">
 					<div class="special-menu text-center">
 						<div class="button-group filter-button-group">
-							<button class="active" data-filter="*">All</button>
+						<button data-filter=".*">All</button>
 							<button data-filter=".dapur">Dapur Bujalu</button>
 							<button data-filter=".desira">Desira</button>
 							<button data-filter=".olaten">Olaten</button>
@@ -99,129 +99,75 @@
 			
 			
 			<div class="row special-list">
+				<?php foreach ($dapur as $a) : ?>
 				<div class="col-lg-4 col-md-6 special-grid dapur">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/dapur_bujalu/produkbujalu1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/dapur_bujalu/' . $a->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Bawang Goreng</h4>
-							<p>Bawang goreng 100% asli</p>
-							<h5> Rp15.000</h5>
+							<h4><?php echo $a->nama_produk?></h4>
+							<p><?php echo character_limiter($a->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($a->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid dapur">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/dapur_bujalu/produkbujalu3.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Kue Kering</h4>
-							<p>Kue kering enak dan nikmat</p>
-							<h5> Rp10.000</h5>
-						</div>
-					</div>
-				</div>
+				<?php endforeach; ?>
 
+				<?php foreach ($desira as $b) : ?>
 				<div class="col-lg-4 col-md-6 special-grid desira">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/desira/produk1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/desira/' . $b->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>jelly</h4>
-							<p>segar dan nikmat</p>
-							<h5>Rp16.000</h5>
+						<h4><?php echo $b->nama_produk?></h4>
+							<p><?php echo character_limiter($b->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($b->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
+				<?php endforeach; ?>
 				
-				<div class="col-lg-4 col-md-6 special-grid desira">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/desira/produk2.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Jelly 2</h4>
-							<p>Segar dan nikmat</p>
-							<h5>Rp20.000</h5>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid desira">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/desira/produk3.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Jelly 3</h4>
-							<p>Segar dan nikmat</p>
-							<h5>Rp20.000</h5>
-						</div>
-					</div>
-				</div>
-				
+				<?php foreach ($olaten as $c) : ?>
 				<div class="col-lg-4 col-md-6 special-grid olaten">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/olaten/produkolaten1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/olaten/' . $c->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Bawang Goreng Original</h4>
-							<p>Bawang Asli 100%</p>
-							<h5>Rp15.000</h5>
+						<h4><?php echo $c->nama_produk?></h4>
+							<p><?php echo character_limiter($c->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($c->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
+				<?php endforeach; ?>
 				
-				<div class="col-lg-4 col-md-6 special-grid olaten">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/olaten/produkolaten2.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Bawang Goreng Pedas</h4>
-							<p>Bawang goreng asli 100% yang pedas nikmat</p>
-							<h5>Rp17.000</h5>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid tobo">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/tobo_kito/produk1.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Pempek Ikan</h4>
-							<p>Pempek ikan enak dan nikmat</p>
-							<h5>Rp18.000</h5>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid tobo">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/tobo_kito/produk2.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Sistik</h4>
-							<p>Enak dan nikmat</p>
-							<h5>Rp15.000</h5>
-						</div>
-					</div>
-				</div>
-				
+				<?php foreach ($rangginang as $d) : ?>
 				<div class="col-lg-4 col-md-6 special-grid rangginang">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/rangginang_tuti/produkrengginang1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/rangginang_tuti/' . $d->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Rangginang rasa terasi</h4>
-							<p>enak dan nikmat</p>
-							<h5>Rp20.000</h5>
-						</div>
-					</div>
-				</div>	
-
-				<div class="col-lg-4 col-md-6 special-grid rangginang">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/rangginang_tuti/dimsum1.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Dimsum</h4>
-							<p>Enak dan nikmat</p>
-							<h5>Rp10.000</h5>
+						<h4><?php echo $d->nama_produk?></h4>
+							<p><?php echo character_limiter($d->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($d->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
+				<?php endforeach; ?>
 				
+				<?php foreach ($tobo as $e) : ?>
+				<div class="col-lg-4 col-md-6 special-grid tobo">
+					<div class="gallery-single fix">
+						<img src="<?php echo base_url() . 'assets/images/tobokito/' . $e->foto_produk ?>" class="img-fluid" alt="Image">
+						<div class="why-text">
+						<h4><?php echo $e->nama_produk?></h4>
+							<p><?php echo character_limiter($e->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($e->harga_produk,0,',','.')?></h5>
+						</div>
+					</div>
+				</div>
+				<?php endforeach; ?>
 			</div>
 		</div>
+	</div>
+</div>
+	</div>
 	</div>
 	<!-- End Menu -->
 	
