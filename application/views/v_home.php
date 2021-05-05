@@ -61,9 +61,9 @@
 			<div class="row">
 				<div class="col-md-8 ml-auto mr-auto text-left">
 					<p class="lead ">
-						" If you're not the one cooking, stay out of the way and compliment the chef. "
+					“ Apa yang anda butuhkan untuk memulai bisnis? Ada tiga hal sederhana: lebih mengenal produk anda sendiri daripada orang lain, mengenal pelanggan anda, dan memiliki hasrat yang membara untuk sukses. ”
 					</p>
-					<span class="lead">Michael Strahan</span>
+					<span class="lead">~ Dave Thomas ~</span>
 				</div>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 				<div class="col-lg-12">
 					<div class="special-menu text-center">
 						<div class="button-group filter-button-group">
-						<button data-filter=".*">All</button>
+						<button class="active" data-filter="*">All</button>
 							<button data-filter=".dapur">Dapur Bujalu</button>
 							<button data-filter=".desira">Desira</button>
 							<button data-filter=".olaten">Olaten</button>

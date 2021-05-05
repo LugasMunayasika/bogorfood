@@ -28,7 +28,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Tobo Kito</h3>
-					<p><span class="text-color">No.Handphone : </span>0813568921233/p>
+					<p><span class="text-color">No.Handphone : </span>0813568921233</p>
 					<p><span class="text-color">Instagram :</span> @tobokitosistik</p>
 					<ul class="list-inline f-social">
 						<li class="list-inline-item"><a href="https://instagram.com/tobokitosistik?igshid=1fu9shcq02oc2"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
