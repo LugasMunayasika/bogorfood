@@ -46,8 +46,8 @@
 						<img src="<?php echo base_url() . 'assets/images/olaten/' . $c->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 							<h4><?php echo $c->nama_produk?></h4>
-							<p><?php echo character_limiter($o->deskripsi_produk)?></p>
-							<h5> Rp<?php echo number_format($o->harga_produk,0,',','.')?></h5>
+							<p><?php echo character_limiter($c->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($c->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
