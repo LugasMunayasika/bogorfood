@@ -38,29 +38,21 @@
 					</div>
 				</div>
 			</div>
-				
+			
 			<div class="row special-list">
-                <div class="col-lg-4 col-md-6 special-grid tobo">
+			<?php foreach ($tobo as $e) : ?>
+				<div class="col-lg-4 col-md-6 special-grid tobokito">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/tobo_kito/produk1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/tobokito/' . $e->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Pempek Ikan</h4>
-							<p>Pempek ikan enak dan nikmat</p>
-							<h5>Rp18.000</h5>
+							<h4><?php echo $e->nama_produk?></h4>
+							<p><?php echo character_limiter($e->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($e->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid recommend">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/tobo_kito/produk2.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Sistik</h4>
-							<p>Enak dan nikmat</p>
-							<h5>Rp15.000</h5>
-						</div>
-					</div>
-				</div>
+				<?php endforeach; ?>
+
 				
 			</div>
 		</div>

@@ -47,7 +47,7 @@
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
 						<li <?= $this->uri->segment(1) == 'home' || $this->uri->segment(1) == '' ? 'class="nav-item active"' : '' ?>>
-							<a class="nav-link" href="<?=base_url()?>index.php/home">Home</a></li>
+							<a class="nav-link" href="<?=base_url()?>home">Home</a></li>
 						<li class="nav-item dropdown <?= $this->uri->segment(1) == 'menu' || $this->uri->segment(1) == 'desira' || $this->uri->segment(1) == 'olaten' || $this->uri->segment(1) == 'rangginang' || $this->uri->segment(1) == 'tobo' ? 'menu-open' : ''?>">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">UMKM</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -63,8 +63,8 @@
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>tobo">UMKM Tobo Kito</a>
 							</div>
 						</li>
-						<li <?= $this->uri->segment(1) == 'about' || $this->uri->segment(1) == '' ? 'class="nav-item active"' : '' ?>><a class="nav-link" href="<?=base_url()?>about">About</a></li>
-						<li <?= $this->uri->segment(1) == 'contact' || $this->uri->segment(1) == '' ? 'class="nav-item active"' : '' ?>><a class="nav-link" href="<?=base_url()?>contact">Contact</a></li>
+						<li <?= $this->uri->segment(1) == 'about' || $this->uri->segment(1) == 'about' ? 'class="nav-item active"' : '' ?>><a class="nav-link" href="<?=base_url()?>about">About</a></li>
+						<li <?= $this->uri->segment(1) == 'contact' || $this->uri->segment(1) == 'contact' ? 'class="nav-item active"' : '' ?>><a class="nav-link" href="<?=base_url()?>contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>

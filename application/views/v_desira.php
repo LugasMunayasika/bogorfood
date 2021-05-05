@@ -38,41 +38,21 @@
 					</div>
 				</div>
 			</div>
-				
+
 			<div class="row special-list">
-                <div class="col-lg-4 col-md-6 special-grid desira">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/desira/produk1.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>jelly</h4>
-							<p>segar dan nikmat</p>
-							<h5>Rp16.000</h5>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid recommend">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/desira/produk2.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Jelly 2</h4>
-							<p>Segar dan nikmat</p>
-							<h5>Rp20.000</h5>
-						</div>
-					</div>
-				</div>
-				
+			<?php foreach ($desira as $b) : ?>
 				<div class="col-lg-4 col-md-6 special-grid desira">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/desira/produk3.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/desira/' . $b->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Jelly 3</h4>
-							<p>Segar dan nikmat</p>
-							<h5>Rp20.000</h5>
+							<h4><?php echo $b->nama_produk?></h4>
+							<p><?php echo character_limiter($b->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($b->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
-				
+				<?php endforeach; ?>
+			
 				
 			</div>
 		</div>

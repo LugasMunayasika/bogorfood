@@ -38,29 +38,20 @@
 					</div>
 				</div>
 			</div>
-				
+
 			<div class="row special-list">
-                <div class="col-lg-4 col-md-6 special-grid olaten">
+			<?php foreach ($olaten as $c) : ?>
+				<div class="col-lg-4 col-md-6 special-grid olaten">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/olaten/produkolaten1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/olaten/' . $c->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Bawang Goreng Original</h4>
-							<p>Bawang Asli 100%</p>
-							<h5>Rp15.000</h5>
+							<h4><?php echo $c->nama_produk?></h4>
+							<p><?php echo character_limiter($o->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($o->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-lg-4 col-md-6 special-grid recommend">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/olaten/produkolaten2.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Bawang Goreng Pedas</h4>
-							<p>Bawang goreng asli 100% yang pedas nikmat</p>
-							<h5>Rp17.000</h5>
-						</div>
-					</div>
-				</div>
+				<?php endforeach; ?>
 				
 			</div>
 		</div>

@@ -31,36 +31,25 @@
 					<div class="special-menu text-center">
 						<div class="button-group filter-button-group">
 							<button class="active" data-filter="*">All</button>
-							<button data-filter=".recommend">Recommended</button>
-							
-						
+							<button data-filter=".recommend">Recommended</button>		
 						</div>
 					</div>
 				</div>
 			</div>
 				
 			<div class="row special-list">
-                <div class="col-lg-4 col-md-6 special-grid recommend">
-					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/rangginang_tuti/produkrengginang1.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Rangginang rasa terasi</h4>
-							<p>enak dan nikmat</p>
-							<h5>Rp20.000</h5>
-						</div>
-					</div>
-				</div>	
-
+			<?php foreach ($rangginang_tuti as $d) : ?>
 				<div class="col-lg-4 col-md-6 special-grid rangginang">
 					<div class="gallery-single fix">
-						<img src="<?=base_url('assets');?>/images/rangginang_tuti/dimsum1.jpg" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/rangginang_tuti/' . $d->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
-							<h4>Dimsum</h4>
-							<p>Enak dan nikmat</p>
-							<h5>Rp10.000</h5>
+							<h4><?php echo $d->nama_produk?></h4>
+							<p><?php echo character_limiter($d->deskripsi_produk)?></p>
+							<h5> Rp<?php echo number_format($d->harga_produk,0,',','.')?></h5>
 						</div>
 					</div>
 				</div>
+				<?php endforeach; ?>
 				
 			</div>
 		</div>
