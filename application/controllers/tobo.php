@@ -10,4 +10,15 @@ class Tobo extends CI_Controller {
         $this->load->view('v_tobo');
         $this->load->view('template_customer/footer');
 	}
+
+	public function detail($id)
+	{
+   		$data['title']="UMKM Tobo Kito | Detail Produk";
+    	$detail = $this->Model_toko_rangginang->detail_data($id);
+    	$data['detail'] = $detail;
+    	$this->load->view('template_customer/header',$data);
+    	$this->load->view('tobo_kito/v_detail_tobo',$data);
+    	$this->load->view('template_customer/footer');
+    
+   }
 }

@@ -103,8 +103,9 @@
 						<img src="<?php echo base_url() . 'assets/images/dapur_bujalu/' . $a->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 							<h4><?php echo $a->nama_produk?></h4>
-							<p><?php echo character_limiter($a->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($a->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($a->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('menu/detail/' .$a->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>
@@ -116,8 +117,9 @@
 						<img src="<?php echo base_url() . 'assets/images/desira/' . $b->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 						<h4><?php echo $b->nama_produk?></h4>
-							<p><?php echo character_limiter($b->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($b->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($b->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('desira/detail/' .$b->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>
@@ -129,8 +131,9 @@
 						<img src="<?php echo base_url() . 'assets/images/olaten/' . $c->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 						<h4><?php echo $c->nama_produk?></h4>
-							<p><?php echo character_limiter($c->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($c->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($c->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('olaten/detail/' .$c->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>
@@ -142,8 +145,9 @@
 						<img src="<?php echo base_url() . 'assets/images/rangginang_tuti/' . $d->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 						<h4><?php echo $d->nama_produk?></h4>
-							<p><?php echo character_limiter($d->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($d->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($d->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('rangginang/detail/' .$d->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>
@@ -155,8 +159,9 @@
 						<img src="<?php echo base_url() . 'assets/images/tobokito/' . $e->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 						<h4><?php echo $e->nama_produk?></h4>
-							<p><?php echo character_limiter($e->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($e->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($e->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('tobo/detail/' .$d->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>

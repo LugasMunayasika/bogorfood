@@ -39,8 +39,9 @@
 						<img src="<?php echo base_url() . 'assets/images/dapur_bujalu/' . $a->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 							<h4><?php echo $a->nama_produk?></h4>
-							<p><?php echo character_limiter($a->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($a->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($a->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('menu/detail/' .$a->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>

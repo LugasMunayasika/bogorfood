@@ -10,4 +10,15 @@ class Desira extends CI_Controller {
         $this->load->view('v_desira');
         $this->load->view('template_customer/footer');
 	}
+
+	public function detail($id)
+	{
+   		$data['title']="UMKM Desira | Detail Produk";
+    	$detail = $this->Model_toko_desira->detail_data($id);
+    	$data['detail'] = $detail;
+    	$this->load->view('template_customer/header',$data);
+    	$this->load->view('desira/v_detail_desira',$data);
+    	$this->load->view('template_customer/footer');
+    
+   }
 }

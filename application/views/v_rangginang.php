@@ -39,8 +39,9 @@
 						<img src="<?php echo base_url() . 'assets/images/rangginang_tuti/' . $d->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 							<h4><?php echo $d->nama_produk?></h4>
-							<p><?php echo character_limiter($d->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($d->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($d->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('rangginang/detail/' .$d->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>

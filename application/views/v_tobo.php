@@ -39,8 +39,9 @@
 						<img src="<?php echo base_url() . 'assets/images/tobokito/' . $e->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 							<h4><?php echo $e->nama_produk?></h4>
-							<p><?php echo character_limiter($e->deskripsi_produk)?></p>
+							<p><?php echo character_limiter($e->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($e->harga_produk,0,',','.')?></h5>
+							<a class="btn btn-light" href="<?php echo base_url('tobo/detail/' .$d->id_produk)?>">Detail Produk</a>
 						</div>
 					</div>
 				</div>

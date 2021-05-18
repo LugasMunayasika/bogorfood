@@ -10,5 +10,9 @@ class Model_toko_desira extends CI_model
         $this->db->limit(2);
         return $this->db->get($table);
     }
+    public function detail_data($id=NULL){
+		$query = $this->db->get_where('tbl_desira', array('id_produk' => $id)) ->row();
+		return $query;
+	}
 }
 ?>
