@@ -7,8 +7,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Bogorfood</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
+							<p class="m-b-40">Temukan jajanan favorit dari UMKM terbaik di Kota Bogor disini!</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="<?=base_url()?>contact">Contact</a></p>
 						</div>
 					</div>
@@ -20,8 +19,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Bogorfood</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
+							<p class="m-b-40">Temukan jajanan favorit dari UMKM terbaik di Kota Bogor disini!</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="<?=base_url()?>contact">Contact</a></p>
 						</div>
 					</div>
@@ -45,8 +43,8 @@
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 					<div class="inner-column">
 						<h1>Welcome To <span>Bogorfood</span></h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
+						<p>Bogorfood merupakan website terbaik yang di dalamnya terdapat berbagai macam makanan dari UMKM terbaik di Kota Bogor </p>
+						<p>Adapun beberapa UMKM-nya yakni UMKM dapur Bujalu, UMKM Desira, UMKM Olaten, UMKM Rangginang Ceu Tuti, UMKM Tobo Kito </p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="<?=base_url()?>contact">Contact</a>
 					</div>
 				</div>
@@ -77,7 +75,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>UMKM</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<p>Berikut adalah menu yang tersedia dari beberapa UMKM</p>
 					</div>
 				</div>
 			</div>
