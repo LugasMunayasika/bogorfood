@@ -16,61 +16,25 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 				<video controls style="width:550px">
-    				<source src=<?=base_url('assets');?>/video/J3C119102.mp4 type="video/mp4">
+    				<source src=<?=base_url('assets');?>/video/dapur_bujalu.mp4 type="video/mp4">
 				</video>
 				</div>
 				<div class="col-lg-6 col-md-6 text-center">
 					<div class="inner-column">
 						<h1>Welcome To <span>Bogorfood</span></h1>
-						<h4>Little Story</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
+						<h4>Jajanan Favorit</h4>
+						<p>Bogorfood merupakan sebuah website yang berisikan beberapa UMKM di Kota Bogor yang menawarkan produk-produk terbaiknya </p>
+						<p>UMKM yang tergabung diantaranya adalah Olaten, Dapur Bujalu, Tobo Kito, Rengginang Ceu Tuti, dan Desira. </p>
+						<p>Mitra UMKM yang bergabung bersama kami menawarkan beraneka macam produk makanan dengan kualitas dan rasa yang terbaik </p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="<?=base_url()?>contact">Contact</a>
 					</div>
 				</div>
 				<div class="col-md-12">
 					<div class="inner-pt">
-						<p>Sed tincidunt, neque at egestas imperdiet, nulla sapien blandit nunc, sit amet pulvinar orci nibh ut massa. Proin nec lectus sed nunc placerat semper. Duis hendrerit elit nec sapien porttitor, ut pretium ipsum feugiat. Aenean volutpat porta nisi in gravida. Curabitur pulvinar ligula sed facilisis bibendum. Nullam vitae nulla elit. </p>
-						<p>Integer purus velit, eleifend eu magna volutpat, porttitor blandit lectus. Aenean risus odio, efficitur quis erat eget, mattis tristique arcu. Fusce in ante enim. Integer consectetur elit nec laoreet rutrum. Mauris porta turpis nec tellus accumsan pellentesque. Morbi non quam tempus, convallis urna in, cursus mauris. </p>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End About -->
-	
-	<!-- Start Contact info -->
-	<div class="contact-imfo-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<i class="fa fa-volume-control-phone"></i>
-					<div class="overflow-hidden">
-						<h4>Phone</h4>
-						<p class="lead">
-							+01 123-456-4590
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-envelope"></i>
-					<div class="overflow-hidden">
-						<h4>Email</h4>
-						<p class="lead">
-							yourmail@gmail.com
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-map-marker"></i>
-					<div class="overflow-hidden">
-						<h4>Location</h4>
-						<p class="lead">
-							800, Lorem Street, US
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact info -->
