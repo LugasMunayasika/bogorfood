@@ -4,10 +4,10 @@
 					</div>
 		<div class="card-body">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<img src="<?php echo base_url('assets/images/tobokito/' .$detail->foto_produk)?>" style="width: 500px">
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<table class="table table-no-bordered table-striped">
 							<tr>
 								<th>Nama Produk</th>

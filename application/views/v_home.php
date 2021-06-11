@@ -58,9 +58,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 ml-auto mr-auto text-left">
-					<p class="lead ">
+					<p class="lead "><b>
 					“ Apa yang anda butuhkan untuk memulai bisnis? Ada tiga hal sederhana: lebih mengenal produk anda sendiri daripada orang lain, mengenal pelanggan anda, dan memiliki hasrat yang membara untuk sukses. ”
-					</p>
+					</b></p>
 					<span class="lead">~ Dave Thomas ~</span>
 				</div>
 			</div>

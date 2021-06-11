@@ -2,44 +2,32 @@
 <footer class="footer-area bg-f">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<h3>Dapur Bujalu</h3>
 					<p><span class="text-color">No.Handphone : </span>084521348454</p>
 					<p><span class="text-color">Instagram :</span> @Dapur.Bujalu</p>
 					<ul class="list-inline f-social">
 						<li class="list-inline-item"><a href="https://instagram.com/dapur.bujalu?igshid=1me2nf9qodybq"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://instagram.com/tutikurniatituti?igshid=1kw78uhncguyj"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<h3>Desira</h3>
 					<p><span class="text-color">No.Handphone : </span>082545551231</p>
 					<p><span class="text-color">Instagram :</span> </p>
 					<ul class="list-inline f-social">
 						<li class="list-inline-item"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://instagram.com/tutikurniatituti?igshid=1kw78uhncguyj"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Olaten</h3>
-					<p><span class="text-color">No.Handphone : </span>081154485137</p>
-					<p><span class="text-color">Instagram :</span> @bawanggorengbgr</p>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="https://instagram.com/bawanggorengbgr?igshid=16wx51yogno3k"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Tobo Kito</h3>
-					<p><span class="text-color">No.Handphone : </span>0813568921233</p>
-					<p><span class="text-color">Instagram :</span> @tobokitosistik</p>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="https://instagram.com/tobokitosistik?igshid=1fu9shcq02oc2"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-lg-3 col-md-6">
+				
+				<div class="col-lg-4 col-md-5">
 					<h3>Rangginang Ceu Tuti</h3>
 					<p><span class="text-color">No.Handphone : </span>0821554849625</p>
 					<p><span class="text-color">Instagram :</span> @tutikurniatituti</p>
 					<ul class="list-inline f-social">
 						<li class="list-inline-item"><a href="https://instagram.com/tutikurniatituti?igshid=1kw78uhncguyj"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://instagram.com/tutikurniatituti?igshid=1kw78uhncguyj"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,7 +37,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2021 <a href="#">Bogorfood</a></p>
+						<p class="company-name">Copyright &copy; Bogorfood 2021 <a href="#"></a></p>
 					</div>
 				</div>
 			</div>

@@ -2,8 +2,11 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
-@import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+/* @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab'); */
+/* @import url('https://fonts.googleapis.com/css?family=Verdana:400,500,600'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -21,7 +24,7 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.80857;
 }
 
@@ -55,6 +58,7 @@ h6 {
 
 h1 {
     font-size: 24px
+
 }
 
 h2 {
@@ -286,7 +290,7 @@ button:focus{
 }
 
 .cover-slides h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 64px;
 	color: #fff;
@@ -315,7 +319,7 @@ button:focus{
 }
 .inner-column{}
 .inner-column h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	color: #010101;
 }
@@ -355,7 +359,7 @@ button:focus{
     font-weight: 300;
     line-height: 44px;
     color: #fff;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: 20px;
 }
 
@@ -379,7 +383,7 @@ button:focus{
 .heading-title h2{
 	color: #010101;
 	font-size: 28px;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto', sans-serif;
 }
 .heading-title p{
 	font-size: 18px;
@@ -439,7 +443,7 @@ button:focus{
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto', sans-serif;
 }
 .why-text p{
 	color: #ffffff;
@@ -766,7 +770,7 @@ button:focus{
 .all-page-title h1{
 	font-size: 38px;
 	color: #ffffff;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Roboto', sans-serif;
 	padding: 0px;
 }
 
@@ -1324,30 +1328,3 @@ blockquote {
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
