@@ -1,5 +1,5 @@
 <?php
-class Model_toko_tobo extends CI_model
+class Model_toko_tauty extends CI_model
 {
     public function get_data($table)
     {
@@ -11,7 +11,7 @@ class Model_toko_tobo extends CI_model
         return $this->db->get($table);
     }
     public function detail_data($id=NULL){
-		$query = $this->db->get_where('tbl_tobokito', array('id_produk' => $id)) ->row();
+		$query = $this->db->get_where('tbl_tauty_cake', array('id_produk' => $id)) ->row();
 		return $query;
 	}
 }

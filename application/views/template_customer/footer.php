@@ -12,12 +12,13 @@
 					</ul>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<h3>Desira</h3>
-					<p><span class="text-color">No.Handphone : </span>082545551231</p>
-					<p><span class="text-color">Instagram :</span> </p>
+					<h3>Tauty Cake</h3>
+					<p><span class="text-color">No.Handphone : </span>08161470178</p>
+					<p><span class="text-color">Instagram : @tauty_ 98</span> </p>
+					<p><span class="text-color">Facebook : Aty amyana</span> </p>
 					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="https://instagram.com/tutikurniatituti?igshid=1kw78uhncguyj"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/tauty_98/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 				

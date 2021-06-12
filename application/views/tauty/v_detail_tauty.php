@@ -1,11 +1,11 @@
 <div class="menu-box"><br><br>
 				<div class="heading-title text-center">
-						<h2>Detail Produk UMKM Desira </h2>
+						<h2>Detail Produk UMKM Tauty Cake </h2>
 					</div>
 		<div class="card-body">
 				<div class="row">
 					<div class="col-md-5">
-						<img src="<?php echo base_url('assets/images/desira/' .$detail->foto_produk)?>" style="width: 500px">
+						<img src="<?php echo base_url('assets/images/tauty_cake/' .$detail->foto_produk)?>" style="width: 500px">
 					</div>
 					<div class="col-md-7">
 						<table class="table table-no-bordered table-striped">
@@ -27,12 +27,12 @@
 							</tr>
 							<tr>
 								<td>
-									<a class="btn btn-danger" href="<?php echo base_url();?>desira" >
-										<i class="fa fa-arrow-left " aria-hidden="true"></i> kembali ke produk
+									<a class="btn btn-danger" href="<?php echo base_url();?>tauty" >
+										<i class="fa fa-arrow-left " aria-hidden="true"></i> Back to Product
 									</a>
 								</td>
 								<td style="text-align: right">
-									<div class="btn btn-success" onclick="location.href='https://api.whatsapp.com/send?phone=+6284521348454&amp;text=Hi,%2we%20use%20ToChat.Be';" align="center"><i class="fa fa-whatsapp"></i> Pesan </div>
+									<div class="btn btn-success" onclick="location.href='https://api.whatsapp.com/send?phone=+6284521348454&amp;text=Hi,%2we%20use%20ToChat.Be';" align="center"><i class="fa fa-whatsapp"></i> Order </div>
 								</td>
 							</tr>
 						</table>

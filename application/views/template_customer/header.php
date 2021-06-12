@@ -48,19 +48,17 @@
 					<ul class="navbar-nav ml-auto">
 						<li <?= $this->uri->segment(1) == 'home' || $this->uri->segment(1) == '' ? 'class="nav-item active"' : '' ?>>
 							<a class="nav-link" href="<?=base_url()?>home">Home</a></li>
-						<li class="nav-item dropdown <?= $this->uri->segment(1) == 'menu' || $this->uri->segment(1) == 'desira' || $this->uri->segment(1) == 'olaten' || $this->uri->segment(1) == 'rangginang' || $this->uri->segment(1) == 'tobo' ? 'menu-open' : ''?>">
+						<li class="nav-item dropdown <?= $this->uri->segment(1) == 'menu' || $this->uri->segment(1) == 'tauty' || $this->uri->segment(1) == 'olaten' || $this->uri->segment(1) == 'rangginang' ? 'menu-open' : ''?>">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">UMKM</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'menu' ? 
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>menu">UMKM Dapur Bujalu</a>
-								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'desira' ? 
-              							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>desira">UMKM Desira</a>
+								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'tauty' ? 
+              							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>tauty">UMKM Tauty Cake</a>
 								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'olaten' ? 
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>olaten">UMKM Olaten</a>
 								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'rangginang' ? 
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>rangginang">UMKM Rangginang Ceu Tuti</a>
-								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'tobo' ? 
-              							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>tobo">UMKM Tobo Kito</a>
 							</div>
 						</li>
 						<li <?= $this->uri->segment(1) == 'about' || $this->uri->segment(1) == 'about' ? 'class="nav-item active"' : '' ?>><a class="nav-link" href="<?=base_url()?>about">About</a></li>

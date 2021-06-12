@@ -2,7 +2,7 @@
 <div id="slides" class="cover-slides">
 		<ul class="slides-container">
 			<li class="text-center">
-				<img src="<?=base_url('assets');?>/images/home/gambar1.jpeg" alt="">
+				<img src="<?=base_url('assets');?>/images/home/gambar.jpeg" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -14,7 +14,7 @@
 				</div>
 			</li>
 			<li class="text-center">
-				<img src="<?=base_url('assets');?>/images/home/gambar2.jpeg" alt="">
+				<img src="<?=base_url('assets');?>/images/home/gambar2.jpg" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -44,7 +44,7 @@
 					<div class="inner-column">
 						<h1>Welcome To <span>Bogorfood</span></h1>
 						<p>Bogorfood merupakan website terbaik yang di dalamnya terdapat berbagai macam makanan dari UMKM terbaik di Kota Bogor </p>
-						<p>Adapun beberapa UMKM-nya yakni UMKM dapur Bujalu, UMKM Desira, UMKM Olaten, UMKM Rangginang Ceu Tuti, UMKM Tobo Kito </p>
+						<p>Adapun beberapa UMKM-nya yakni UMKM dapur Bujalu, UMKM Tauty Cake, UMKM Olaten, UMKM Rangginang Ceu Tuti </p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="<?=base_url()?>contact">Contact</a>
 					</div>
 				</div>
@@ -75,7 +75,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>UMKM</h2>
-						<p>Berikut adalah menu yang tersedia dari beberapa UMKM</p>
+						<h4>Berikut adalah menu yang tersedia dari beberapa UMKM</h4>
 					</div>
 				</div>
 			</div>
@@ -85,10 +85,9 @@
 						<div class="button-group filter-button-group">
 						<button class="active" data-filter="*">All</button>
 							<button data-filter=".dapur">Dapur Bujalu</button>
-							<button data-filter=".desira">Desira</button>
+							<button data-filter=".tauty">Tauty Cake</button>
 							<button data-filter=".olaten">Olaten</button>
 							<button data-filter=".rangginang">Rangginang Ceu Tuti</button>
-							<button data-filter=".tobo">Tobo Kito</button>
 							
 						</div>
 					</div>
@@ -105,21 +104,21 @@
 							<h4><?php echo $a->nama_produk?></h4>
 							<p><?php echo character_limiter($a->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($a->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('menu/detail/' .$a->id_produk)?>">Detail Produk</a>
+							<a class="btn btn-light" href="<?php echo base_url('menu/detail/' .$a->id_produk)?>">Product Detail</a>
 						</div>
 					</div>
 				</div>
 				<?php endforeach; ?>
 
-				<?php foreach ($desira as $b) : ?>
-				<div class="col-lg-4 col-md-6 special-grid desira">
+				<?php foreach ($tauty as $b) : ?>
+				<div class="col-lg-4 col-md-6 special-grid tauty">
 					<div class="gallery-single fix">
-						<img src="<?php echo base_url() . 'assets/images/desira/' . $b->foto_produk ?>" class="img-fluid" alt="Image">
+						<img src="<?php echo base_url() . 'assets/images/tauty_cake/' . $b->foto_produk ?>" class="img-fluid" alt="Image">
 						<div class="why-text">
 						<h4><?php echo $b->nama_produk?></h4>
 							<p><?php echo character_limiter($b->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($b->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('desira/detail/' .$b->id_produk)?>">Detail Produk</a>
+							<a class="btn btn-light" href="<?php echo base_url('tauty/detail/' .$b->id_produk)?>">Product Detail</a>
 						</div>
 					</div>
 				</div>
@@ -133,7 +132,7 @@
 						<h4><?php echo $c->nama_produk?></h4>
 							<p><?php echo character_limiter($c->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($c->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('olaten/detail/' .$c->id_produk)?>">Detail Produk</a>
+							<a class="btn btn-light" href="<?php echo base_url('olaten/detail/' .$c->id_produk)?>">Product Detail</a>
 						</div>
 					</div>
 				</div>
@@ -147,25 +146,13 @@
 						<h4><?php echo $d->nama_produk?></h4>
 							<p><?php echo character_limiter($d->deskripsi_produk,20)?></p>
 							<h5> Rp<?php echo number_format($d->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('rangginang/detail/' .$d->id_produk)?>">Detail Produk</a>
+							<a class="btn btn-light" href="<?php echo base_url('rangginang/detail/' .$d->id_produk)?>">Product Detail</a>
 						</div>
 					</div>
 				</div>
 				<?php endforeach; ?>
 				
-				<?php foreach ($tobo as $e) : ?>
-				<div class="col-lg-4 col-md-6 special-grid tobo">
-					<div class="gallery-single fix">
-						<img src="<?php echo base_url() . 'assets/images/tobokito/' . $e->foto_produk ?>" class="img-fluid" alt="Image">
-						<div class="why-text">
-						<h4><?php echo $e->nama_produk?></h4>
-							<p><?php echo character_limiter($e->deskripsi_produk,20)?></p>
-							<h5> Rp<?php echo number_format($e->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('tobo/detail/' .$d->id_produk)?>">Detail Produk</a>
-						</div>
-					</div>
-				</div>
-				<?php endforeach; ?>
+	
 			</div>
 		</div>
 	</div>

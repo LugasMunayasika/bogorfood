@@ -28,11 +28,11 @@
 							<tr>
 								<td>
 									<a class="btn btn-danger" href="<?php echo base_url();?>menu" >
-										<i class="fa fa-arrow-left " aria-hidden="true"></i> kembali ke produk
+										<i class="fa fa-arrow-left " aria-hidden="true"></i> Back to Product
 									</a>
 								</td>
 								<td style="text-align: right">
-									<div class="btn btn-success" onclick="location.href='https://api.whatsapp.com/send?phone=+6284521348454&amp;text=Hi,%2we%20use%20ToChat.Be';" align="center"><i class="fa fa-whatsapp"></i> Pesan </div>
+									<div class="btn btn-success" onclick="location.href='https://api.whatsapp.com/send?phone=+6284521348454&amp;text=Hi,%2we%20use%20ToChat.Be';" align="center"><i class="fa fa-whatsapp"></i> Order </div>
 								</td>
 							</tr>
 						</table>
