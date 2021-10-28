@@ -7,7 +7,7 @@ class Model_toko_tauty extends CI_model
     }
     public function ambil_data($table)
     {
-        $this->db->limit(2);
+        $this->db->limit(3);
         return $this->db->get($table);
     }
     public function detail_data($id=NULL){

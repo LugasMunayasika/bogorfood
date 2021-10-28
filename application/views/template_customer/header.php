@@ -55,8 +55,6 @@
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>menu">UMKM Dapur Bujalu</a>
 								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'tauty' ? 
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>tauty">UMKM Tauty Cake</a>
-								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'olaten' ? 
-              							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>olaten">UMKM Olaten</a>
 								<a class = "dropdown-item"<?= $this->uri->segment(1) == 'rangginang' ? 
               							'dropdown-item style="background-color: #189034"'  : ''?> href="<?=base_url()?>rangginang">UMKM Rangginang Ceu Tuti</a>
 							</div>

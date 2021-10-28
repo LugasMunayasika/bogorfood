@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('Model_toko_dapur','Model_toko_tauty','Model_toko_olaten','Model_toko_rangginang');
+$autoload['model'] = array('Model_toko_dapur','Model_toko_tauty','Model_toko_rangginang');

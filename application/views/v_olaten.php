@@ -29,22 +29,6 @@
 				</div>
 			</div>
 
-			<div class="row special-list">
-			<?php foreach ($olaten as $c) : ?>
-				<div class="col-lg-4 col-md-6 special-grid olaten">
-					<div class="gallery-single fix">
-						<img src="<?php echo base_url() . 'assets/images/olaten/' . $c->foto_produk ?>" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4><?php echo $c->nama_produk?></h4>
-							<p><?php echo character_limiter($c->deskripsi_produk,20)?></p>
-							<h5> Rp<?php echo number_format($c->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('olaten/detail/' .$c->id_produk)?>">Product Detail</a>
-						</div>
-					</div>
-				</div>
-				<?php endforeach; ?>
-				
-			</div>
 		</div>
 	</div>
 	<!-- End Menu -->

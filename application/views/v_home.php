@@ -44,7 +44,7 @@
 					<div class="inner-column">
 						<h1>Welcome To <span>Bogorfood</span></h1>
 						<p>Bogorfood merupakan website terbaik yang di dalamnya terdapat berbagai macam makanan dari UMKM terbaik di Kota Bogor </p>
-						<p>Adapun beberapa UMKM-nya yakni UMKM dapur Bujalu, UMKM Tauty Cake, UMKM Olaten, UMKM Rangginang Ceu Tuti </p>
+						<p>Adapun beberapa UMKM-nya yakni UMKM dapur Bujalu, UMKM Tauty Cake, UMKM Rangginang Ceu Tuti </p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="<?=base_url()?>contact">Contact</a>
 					</div>
 				</div>
@@ -86,7 +86,6 @@
 						<button class="active" data-filter="*">All</button>
 							<button data-filter=".dapur">Dapur Bujalu</button>
 							<button data-filter=".tauty">Tauty Cake</button>
-							<button data-filter=".olaten">Olaten</button>
 							<button data-filter=".rangginang">Rangginang Ceu Tuti</button>
 							
 						</div>
@@ -123,20 +122,7 @@
 					</div>
 				</div>
 				<?php endforeach; ?>
-				
-				<?php foreach ($olaten as $c) : ?>
-				<div class="col-lg-4 col-md-6 special-grid olaten">
-					<div class="gallery-single fix">
-						<img src="<?php echo base_url() . 'assets/images/olaten/' . $c->foto_produk ?>" class="img-fluid" alt="Image">
-						<div class="why-text">
-						<h4><?php echo $c->nama_produk?></h4>
-							<p><?php echo character_limiter($c->deskripsi_produk,20)?></p>
-							<h5> Rp<?php echo number_format($c->harga_produk,0,',','.')?></h5>
-							<a class="btn btn-light" href="<?php echo base_url('olaten/detail/' .$c->id_produk)?>">Product Detail</a>
-						</div>
-					</div>
-				</div>
-				<?php endforeach; ?>
+
 				
 				<?php foreach ($rangginang as $d) : ?>
 				<div class="col-lg-4 col-md-6 special-grid rangginang">
